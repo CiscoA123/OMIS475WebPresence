@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Presence</title>
+<meta charset="utf-8">
+</head>
+<style>
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box;}
+body { margin:0;
+       background-color: white; }
+#container { background-color: #eeeeee;
+             color:black;
+             min-width: 960px;
+             font:italic bold 12px/30px Georgia, serif }
+header { background-color: #636631;
+         background-image: url(pic1.jpeg);
+         background-position: bottom;
+         background-repeat: repeat-x;
+         height: 120px;
+         color:lightblue;
+         text-align: right;
+         padding: 0 20px;
+         border-bottom: 2px solid #000000;
+        font-family: Georgia, 'Times New Roman', Times, serif }		 
+nav { float: left;
+      width: 150px; }
+aside { float: right;
+        width: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 15px;
+ }
+main { margin: 0 210px 0 160px;
+        padding: 1px 10px 20px 10px;
+        background-color: black;
+        color:white; }
+footer { font-size: .70em;
+         text-align: center;
+         color: #006600;
+         background-color: #ffffff;
+         padding-top: 10px;
+         clear: both; }		 
+h1 { margin-top: 0;
+     font-size: 3em;
+     text-align: left;
+     text-shadow: 2px 2px 2px #000000; }	 
+header a {font-size: 0.80em; }
+header a:link, header a:visited { color: #ffffff; }
+header a:focus, header a:hover { color: #eeeeee; }
+nav ul { margin-top: 20px;
+         list-style-type: none; }
+nav a { text-decoration: none;
+        font-size: 1.2em; }
+nav a:link { color:#006600;}
+nav a:visited { color: #003300; }
+nav a:focus, nav a:hover { color: lightblue; }
+nav a:active { color: #000000;}
+nav img { margin: 30px;}
+main p { margin: 20px; }
+main h2, main h3 { color: lightblue;
+                   background-color: black; }
+.me { margin: 10px;
+              float: right; }
+aside h3 { padding-bottom: 2px;
+           border-bottom: 1px solid #000000;
+           margin: 10px;
+           font-size: 0.90em;
+		   color:lightblue; }
+.news { font-size: 0.80em;
+        margin: 10px; }
+.me,.fam{
+   float:left;
+  
+}	
+</style>
+<body>
+        <div id="container">
+                <header role="banner">
+                  <h1>Francisco's Web Presence</h1><br><button onclick="myFunction()">Print this page</button>
+                  <script>
+                  function myFunction() {
+                    window.print();
+                  }
+                  </script>
+                </header>
+                <nav role="navigation">
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="Hobbies.html">Hobbies</a></li>
+                        <li><a href="Work.html">Work</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="FavShow.html">Tv</a></li>
+                        <li><a href="Dirk.html">Dirk</a></li>
+                        <li><a href="Runescape.html">RS</a></li>
+                        <li><a href="Arnold.html">Arnold</a></li>
+                        <li><a href="music.html">music</a></li>
+                    </ul>
+        
+               </nav>
+               <aside role="complementary">
+                 <h3>My ethnicity</h3>
+                 <img src="Gua1.jpeg" class="gua" style="width:150px;height:160px;margin-left:15px">
+                 <img src="Mexico1.jpeg" class="mex" style="width:150px;height:160px;margin-left:15px">
+                 <p>I am 50% mexican and 50% Guatemalan</p>
+                  <h3>My friends</h3>
+                  <img src="friends.JPG" class="friends" style="width:150px;height:160px;margin-left:15px">
+                  <p>my friends are important to my health because they get my mind off of things that I stress out about. It is important to have balance in my life.</p>
+                </aside>
+                <main role="main" id="content">
+                        <center><h2>Me</h2></center>  
+                
+                    <p><img src="Me1.JPG" class="me"alt="Me" style="width:170px;height:170px;margin-left:15px;">My name is Francisco Ayapan, I am a senior at NIU. My major is OM&IS. I have 2 siblings that are both girls. My ethnicity is Mexican and Guatemalan. I am currently 23 years old and plan on getting a job that is related to Information Systems.</p>
+                  <br>  
+                        <center><h2>Family</h2></center>
+                  <br>
+
+    
+                  <p><img src="Fam1.jpg" class="fam"alt="Fam" style="width:170px;height:170px;margin-left:15px;">Family is a big part of who I am. My family keeps me in check and they are always good to go back to when i've been stressed at school. Ever since I can remember family has always been first.</p>
+                  <footer><a href="mailto:Ayapan9999@gmail.com">Email Francisco </a></footer>
+                </main>
+        </div> 
+</body>	
